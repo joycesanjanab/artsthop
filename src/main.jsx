@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Router>
       <NavBar />
       <Routes>
-        <Route path='/' exact element={<App />} />
+        <Route path='/home' exact element={<App />} />
         <Route path='/login' exact element={<LoginPage />} />
         <Route path='/register' exact element={<RegisterPage />} />
         <Route path='/products' exact element={<ProductsList />} />
